@@ -59,7 +59,7 @@ export const Card = () => {
           <div
             key={char.id}
             onClick={() => handleCardClick(char.id)}
-            class="w-3/4 h-full m-full min-w-full min-h-full bg-gray-950 bg-opacity-80 rounded-2xl shadow-2xl overflow-hidden"
+            class="w-full h-64 sm:h-80 md:h-96  bg-gray-950 bg-opacity-80 rounded-2xl shadow-2xl overflow-hidden"
           >
             <img
               class="p-2 rounded-2xl w-full h-full object-cover object-center"
